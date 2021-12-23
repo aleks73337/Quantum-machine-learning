@@ -21,9 +21,18 @@ The 2-qubit or imprimitive gates act on each qubit i chronologically. The second
 
 This is an example of two 4-qubit strongly entangling layers (ranges r=1 and r=2, respectively) with rotations R and RYs as imprimitives
 
-# Results
+# Technical details
 
 1. Feature extractor
 
 The features embedding size consists of 64 layers and here is some images for example of decoding:
 ![image](https://user-images.githubusercontent.com/32843048/147247680-bbefdc5b-7411-4118-8e99-db9f602c6838.png)
+
+2. Quantum classifier
+
+1. Before sending features to quantum layer we should make normalizing of input to [-1;1].
+2. We apply technic called “Data re-uploading” which consists on sampling the input data several times into the network. 
+
+# Results
+
+My quantum classifier shows accuracy over 85% that is good result for that task and such low number of qubits.
