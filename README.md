@@ -36,3 +36,7 @@ The features embedding size consists of 64 layers and here is some images for ex
 # Results
 
 My quantum classifier shows accuracy over 85% that is good result for that task and such low number of qubits.
+
+19/19 [==============================] - 152s 8s/step - loss: 0.3431 - categorical_accuracy: 0.8517
+
+
