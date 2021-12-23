@@ -39,4 +39,5 @@ My quantum classifier shows accuracy over 85% that is good result for that task 
 
 19/19 [==============================] - 152s 8s/step - loss: 0.3431 - categorical_accuracy: 0.8517
 
+![image](https://user-images.githubusercontent.com/32843048/147256909-cc77bf4e-900c-4b67-af0c-5b25897ec78e.png)
 
