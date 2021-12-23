@@ -19,4 +19,11 @@ A StronglyEntanglingLayer applying rotations on each qubit followed by cascades 
 
 The 2-qubit or imprimitive gates act on each qubit i chronologically. The second qubit for each gate is determined by (i+r)modn, where n is equal to len(wires) and range a layer hyperparameter called the range.
 
-This is an example of two 4-qubit strongly entangling layers (ranges r=1 and r=2, respectively) with rotations R and CNOTs as imprimitives:
+This is an example of two 4-qubit strongly entangling layers (ranges r=1 and r=2, respectively) with rotations R and RYs as imprimitives
+
+# Results
+
+1. Feature extractor
+
+The features embedding size consists of 64 layers and here is some images for example of decoding:
+![image](https://user-images.githubusercontent.com/32843048/147247680-bbefdc5b-7411-4118-8e99-db9f602c6838.png)
