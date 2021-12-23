@@ -4,7 +4,7 @@ Here is my final project for quantum machine learning course.
 
 # Introduction
 
-Quantum machine learning is a new sphere in computer science. This field developing so quickly that I decided to make my own project. The project conststs of two parts : feature extractor and quantum classifier. The idea of the project was taken from [this] (https://towardsdatascience.com/hybrid-quantum-neural-network-for-reduced-mnist-data-840897ad08a) article.
+Quantum machine learning is a new sphere in computer science. This field developing so quickly that I decided to make my own project. The project conststs of two parts : feature extractor and quantum classifier. The idea of the project was taken from [this](https://towardsdatascience.com/hybrid-quantum-neural-network-for-reduced-mnist-data-840897ad08a) article.
 
 # Overview
 
