@@ -25,6 +25,9 @@ This is an example of two 4-qubit strongly entangling layers (ranges r=1 and r=2
 
 1. Feature extractor
 
+![image](https://user-images.githubusercontent.com/32843048/147361232-9db09fea-25c3-4140-8d84-e2986f2ce756.png)
+
+
 The features embedding size consists of 64 layers and here is some images for example of decoding:
 ![image](https://user-images.githubusercontent.com/32843048/147247680-bbefdc5b-7411-4118-8e99-db9f602c6838.png)
 
@@ -32,6 +35,9 @@ The features embedding size consists of 64 layers and here is some images for ex
 
 1. Before sending features to quantum layer we should make normalizing of input to [-1;1].
 2. We apply technic called “Data re-uploading” which consists on sampling the input data several times into the network. 
+
+![image](https://user-images.githubusercontent.com/32843048/147361255-748610d5-d8bf-41aa-9b6e-cc01d2fa8a84.png)
+
 
 # Results
 
